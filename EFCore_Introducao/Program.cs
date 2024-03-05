@@ -58,6 +58,8 @@ namespace EFCore_Introducao
             db.SaveChanges();
             #endregion
 
+            Console.WriteLine("Fim do sistema...");
+
             Console.ReadKey();
         }
     }
